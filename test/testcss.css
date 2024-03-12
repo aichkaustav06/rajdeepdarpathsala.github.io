@@ -1,0 +1,62 @@
+.intro-container {
+    width: 1140px;
+    height: 768px;
+    display: flex;
+    padding: 0px 0px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.intro-contener-img {
+    /* Add some width to the image container if needed */
+    width: 40%;
+}
+
+.intro-content {
+    /* Add some width to the content container if needed */
+    width: 55%;
+}
+
+.intro-first-line {
+    font-size: 55px;
+}
+
+.intro-second-line {
+    font-size: 18px;
+}
+.intro-content-button button{padding: 15px 15px;}
+.box-size{height: 300px;
+          width: 250px;
+          border: none;
+          background-color: rgb(8, 109, 197);
+          color: black;
+          border-radius: 15px;
+          flex-direction: column;
+          justify-content: center;
+          align-items: start;
+          }
+.box-size p{font-size: 25px;}
+.registration-form-container{position: relative;
+                             padding: 15px 0px;
+                             margin: 15px 0px;}
+.registration-form-container::before{background-image: url("bk-contact (1).jpg");
+                                     content: "";
+                                     background-position: center;
+                                     background-size: cover;
+                                     width: 100%;
+                                     height: 100%;
+                                     z-index: -1;
+                                     position: absolute;
+
+                                    }
+.registration-form-column{display: flex;
+                          justify-content: space-between;
+                          z-index: 1;
+                          position: relative;
+                          background-color: white;
+                          width: 80%;
+                          max-width: 900px;
+                          height: 80%;
+                          padding: 0px 0px;
+                          margin: auto;
+                         }
